@@ -5,10 +5,29 @@ import Feature from "./components/feature/Feature";
 import Cta from "./components/cta/Cta";
 import Brand from "./components/brand/Brand";
 
+import {
+  Footer,
+  Blog,
+  Features,
+  Header,
+  Posiblity,
+  WhatGPT3,
+} from "./containers";
+
 const App = () => {
   return (
-    <div>
-      <h1>hello world</h1>
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Posiblity />
+      <Cta />
+      <Blog />
+      <Footer />
     </div>
   );
 };
