@@ -1,7 +1,7 @@
 import React from "react";
 import "./posiblity.css";
 
-const posiblity = () => {
+const Posiblity = () => {
   return <>posiblity</>;
 };
 
