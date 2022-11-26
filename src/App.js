@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Cta from "./components/cta/Cta";
 import Brand from "./components/brand/Brand";
+import "./App.css";
 
 import {
   Footer,

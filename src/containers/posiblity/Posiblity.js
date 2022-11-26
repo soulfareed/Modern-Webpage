@@ -2,7 +2,7 @@ import React from "react";
 import "./posiblity.css";
 
 const Posiblity = () => {
-  return <>posiblity</>;
+  return <>Posiblity</>;
 };
 
 export default Posiblity;
