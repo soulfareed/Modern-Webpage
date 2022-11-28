@@ -37,13 +37,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 .gpt3__navbar-sign button {
-  background-color: rgb(164, 113, 113);
-  height: 50px;
-  width: 130px;
-  border-color: rgb(163, 99, 99);
-  border-radius: 30px;
+  background-color: #ff4820;
+  height: 60px;
+  width: 150px;
+  border-color: #ff4820;
+  color: white;
+  border-radius: 5px;
   font-size: 25px;
 }
