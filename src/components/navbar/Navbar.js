@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import logo from "../../assets/logo.svg";
-// import { RiMenu3Line, RiCloseLin } from "react-icon/ri";
+import { RiMenu3Line, RiCloseLin } from "react-icon/ri";
 
 const Navbar = () => {
   return (
@@ -31,6 +31,21 @@ const Navbar = () => {
       <div className="gpt3__navbar-sign">
         <p>Sign in</p>
         <button type="button">Sign up</button>
+      </div>
+      <div className="gpt3__navbar-menu">
+        {toggleMenu ? (
+          <RiCloseLine
+            color="#fff"
+            size={27}
+            onClick={() => setToggleMenu(false)}
+          />
+        ) : (
+          <RiMenu3Line
+            color="#fff"
+            size={27}
+            onClick={() => setToggleMenu(true)}
+          />
+        )}
       </div>
     </div>
   );
