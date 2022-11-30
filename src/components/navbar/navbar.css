@@ -48,14 +48,35 @@ body {
   font-size: 20px;
 }
 .gpt3__navbar-sign button {
-  background-color: #ff4820;
+  /* background-color: #ff4820;
   height: 60px;
   width: 150px;
   border-color: #ff4820;
   color: white;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 20px; */
+
+  flex: 1 1 auto;
+  width: 130px;
+  height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #f6d365 0%,
+    #fda085 51%,
+    #f6d365 100%
+  );
 }
+.gpt3__navbar-sign button:hover {
+  background-position: right center;
+}
+
 .gpt3__navbar-menu {
   margin-left: 1rem;
 
