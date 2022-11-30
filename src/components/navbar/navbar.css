@@ -56,13 +56,3 @@ body {
   border-radius: 10px;
   font-size: 20px;
 }
-
-.gpt3__navbar-sign button {
-  background-color: #ff4820;
-  height: 60px;
-  width: 150px;
-  border-color: #ff4820;
-  color: white;
-  border-radius: 10px;
-  font-size: 20px;
-}
