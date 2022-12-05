@@ -56,7 +56,7 @@ body {
   border-radius: 10px;
   font-size: 20px; */
 
-  flex: 1 1 auto;
+  /* flex: 1 1 auto;
   width: 130px;
   height: 60px;
   text-align: center;
@@ -67,7 +67,7 @@ body {
   border-radius: 10px;
   border-color: none;
   background: brown;
-  font-size: 20px;
+  font-size: 20px; */
 }
 .gpt3__navbar-sign button:hover {
   background-position: right center;
