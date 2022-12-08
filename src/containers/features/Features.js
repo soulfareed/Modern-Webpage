@@ -6,8 +6,3 @@ const Features = () => {
 };
 
 export default Features;
-HTMLAllCollectionASL;
-<>
-  
-  <ASKDFJ></ASKDFJ>
-
