@@ -3,6 +3,9 @@
   width: 455px;
   background-color: #052d56;
   height: 60px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-color: #052d56;
 }
 button {
   color: black;
