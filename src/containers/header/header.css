@@ -1,0 +1,16 @@
+.email-input {
+  color: white;
+  width: 455px;
+  background-color: #052d56;
+  height: 60px;
+}
+button {
+  color: black;
+  background-color: #ff4820;
+  width: 173px;
+  height: 60px;
+}
+.gpt3__header-content_input {
+  display: flex;
+  margin: auto;
+}
