@@ -23,13 +23,13 @@ const Header = () => {
             placeholder="Your Email Adress"
           />
           <button type="button">Get Started</button>
-        </div>
-        <div className="gpt3__header-content__people">
-          <img src={people} />
-        </div>
-      </div>
     </div>
-  );
+    <div className="gpt3__header-content__people">
+      <img src={people} />
+    </div>
+  </div>
+</div>
+  
 };
 
 export default Header;
