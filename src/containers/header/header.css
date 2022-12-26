@@ -18,4 +18,8 @@
 }
 .gpt3__header-content p {
   font-family: var(--font-family);
-  font-size: 2
+  font-size: 20px;
+  line-height: 27px;
+  color: #81afdd;
+  margin-top: 1.5rem;
+}
