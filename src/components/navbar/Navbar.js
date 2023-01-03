@@ -46,7 +46,7 @@ const Navbar = () => {
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (
-          <RiCloseLine
+          <RiCloseLinegit
             color="#fff"
             size={27}
             onClick={() => setToggleMenu(false)}
