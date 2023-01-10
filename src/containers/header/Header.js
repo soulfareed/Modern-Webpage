@@ -26,6 +26,7 @@ const Header = () => {
         </div>
         <div className="gpt3__header-content__people">
           <img src={people} />
+        </div>
       </div>
     </div>
   );
